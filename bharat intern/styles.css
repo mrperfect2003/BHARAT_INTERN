@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #111111;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar img {
+    height: 75px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background: url('https://logowik.com/content/uploads/images/750_netflix.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 1000px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.hero .cta-buttons {
+    margin: 20px 0;
+}
+
+.hero input[type="email"] {
+    padding: 10px;
+    width:50%;
+    margin-right: 10px;
+    border: 1px solid #333;
+}
+
+.hero button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+footer {
+    background: #111;
+    color: #999;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
